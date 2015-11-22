@@ -1,0 +1,43 @@
+- Geometric Graphs
+	-- Functions
+		---- point
+		---- line
+		---- area
+		---- interval
+		---- path
+		---- schema
+	-- Partitions
+		---- polygon
+		---- contour
+	-- Networks
+		---- edge
+
+				--------------------------
+
+- Collision Modifiers
+	-- stack
+		---- symmetric
+		---- asymmetric
+	-- dodge
+		---- symmetric
+		---- asymmetric
+	-- jitter
+		---- uniform
+		---- normal
+
+				--------------------------
+- point
+	-- shape
+		---- circle
+		---- diamond
+		---- face
+		---- image
+	-- size
+	-- hue
+	-- transperancy : to prevent collusion
+
+
+
+
+
+
