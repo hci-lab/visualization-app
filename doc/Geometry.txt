@@ -34,7 +34,40 @@
 		---- image
 	-- size
 	-- hue
-	-- transperancy : to prevent collusion
+	-- transperancy : to prevent collusion.
+
+
+- line : set of ordered points.
+	-- size
+		---- thickness
+	-- shape
+		---- symbols
+	-- texture
+		---- dashing patterns :  i guess you will have to set 
+							the hue of a point with a 									specific pattern.
+
+
+- area : same as line but it fills the area between the line and 		the axes.
+
+
+- interval : anchored at zero
+	-- bar width : arbitrary constant determined by bin 						statisttical function. 
+
+- path : same as line but it can loop, sigzag and cross
+
+- schema : box plot
+	-- median : sort then take middle value.
+	-- 25th percentile
+	-- 75th perecntile
+	-- max value
+	-- min value
+
+
+
+
+ 
+
+	
 
 
 
