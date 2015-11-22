@@ -75,6 +75,10 @@ the hue of a point with a specific pattern.
 
 				--------------------------
 
+- stack 
+	- bar charts : the lower value of each bar is the previous case's value in dataset.
+	- area chart : same concept applies like bar chart.
+
 
 
 
