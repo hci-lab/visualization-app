@@ -44,14 +44,14 @@
 		---- symbols
 	-- texture
 		---- dashing patterns :  i guess you will have to set 
-							the hue of a point with a 									specific pattern.
+the hue of a point with a specific pattern.
 
 
-- area : same as line but it fills the area between the line and 		the axes.
+- area : same as line but it fills the area between the line and the axes.
 
 
 - interval : anchored at zero
-	-- bar width : arbitrary constant determined by bin 						statisttical function. 
+	-- bar width : arbitrary constant determined by bin statisttical function. 
 
 - path : same as line but it can loop, sigzag and cross
 
