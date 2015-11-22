@@ -53,7 +53,7 @@ the hue of a point with a specific pattern.
 - interval : anchored at zero
 	-- bar width : arbitrary constant determined by bin statisttical function. 
 
-- path : same as line but it can loop, sigzag and cross
+- path : same as line but it can loop, sigzag and cross.
 
 - schema : box plot
 	-- median : sort then take middle value.
@@ -61,6 +61,24 @@ the hue of a point with a specific pattern.
 	-- 75th perecntile
 	-- max value
 	-- min value
+
+				--------------------------
+
+- polygon
+	-- equation between x and y variable ex: z = x*y*(sin(x^2) - cos(y^2))^2 where z is the plotted polygon.
+
+
+- contour
+	-- smoothing function
+	-- shape
+	-- hue
+
+				--------------------------
+
+
+
+
+
 
 
 
