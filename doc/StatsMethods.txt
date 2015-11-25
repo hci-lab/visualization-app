@@ -1,0 +1,60 @@
+- Statistics Methods |
+----------------------------
+--Bin
+-------
+--- rect
+--- tri
+--- hex
+--- quantile
+--- boundry
+--- voronoi
+--- dot
+--- stem
+_________________________
+-- Summary
+-----------------
+--- count
+--- proportion
+--- sum
+--- mean
+--- median
+--- mode 
+--- sd
+--- se 
+--- range
+--- leaf 
+_________________________
+-- Region
+---------------
+--- spread
+--- sd
+--- se
+--- reange
+--- confi
+--- mean
+--- smooth
+_________________________
+-- Smooth
+--------------
+--- linear
+--- quadratic
+--- cubic
+--- log
+--- mean
+--- median
+--- mode
+--- spline
+--- density
+--- normal
+--- kernal
+_________________________
+-- Link
+----------
+--- join
+--- sequence
+--- mst
+--- delaunay
+--- hill
+--- tsp
+--- complete
+--- neighbor
