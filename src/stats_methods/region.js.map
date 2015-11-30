@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "region.js",
+  "sourceRoot": "",
+  "sources": [
+    "region.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAM;AAEJ,QAAA;;;;IAAA,MAAA,GAAS,SAAA,GAAA;;IAET,EAAA,GAAK,SAAA,GAAA;;IAEL,EAAA,GAAK,SAAA,GAAA;;IAEL,MAAA,GAAS,SAAA,GAAA;;IAET,MAAA,GAAS,SAAA,GAAA;;IAET,IAAA,GAAO,SAAA,GAAA;;IAEP,MAAA,GAAS,SAAA,GAAA;;;;;AAdX"
+}

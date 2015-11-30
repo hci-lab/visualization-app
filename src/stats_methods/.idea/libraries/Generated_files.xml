@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/region.js" />
+        <item url="file://$PROJECT_DIR$/bin.js" />
+        <item url="file://$PROJECT_DIR$/summary.js" />
+        <item url="file://$PROJECT_DIR$/smooth.js" />
+        <item url="file://$PROJECT_DIR$/link.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/region.js" />
+      <root url="file://$PROJECT_DIR$/bin.js" />
+      <root url="file://$PROJECT_DIR$/summary.js" />
+      <root url="file://$PROJECT_DIR$/smooth.js" />
+      <root url="file://$PROJECT_DIR$/link.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

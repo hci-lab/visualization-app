@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "bin.js",
+  "sourceRoot": "",
+  "sources": [
+    "bin.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAM;AACJ,QAAA;;;;IAAA,IAAA,GAAO,SAAA,GAAA;;IAEP,GAAA,GAAM,SAAA,GAAA;;IAEN,GAAA,GAAM,SAAA,GAAA;;IAEN,QAAA,CAAS,SAAA,GAAA,CAAT;;IAEA,OAAA,CAAQ,SAAA,GAAA,CAAR;;IAEA,OAAA,CAAQ,SAAA,GAAA,CAAR;;IAEA,GAAA,CAAI,SAAA,GAAA,CAAJ;;IAEA,IAAA,CAAK,SAAA,GAAA,CAAL;;;;;AAfF"
+}

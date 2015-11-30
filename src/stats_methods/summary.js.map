@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "summary.js",
+  "sourceRoot": "",
+  "sources": [
+    "summary.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAM;AAEJ,QAAA;;;;IAAA,KAAA,GAAQ,SAAA,GAAA;;IAER,UAAA,GAAa,SAAA,GAAA;;IAEb,GAAA,GAAM,SAAA,GAAA;;IAEN,IAAA,GAAO,SAAA,GAAA;;IAEP,MAAA,GAAS,SAAA,GAAA;;IAET,IAAA,GAAO,SAAA,GAAA;;IAEP,EAAA,GAAK,SAAA,GAAA;;IAEL,EAAA,GAAK,SAAA,GAAA;;IAEL,KAAA,GAAQ,SAAA,GAAA;;IAER,IAAA,GAAO,SAAA,GAAA;;;;;AApBT"
+}
