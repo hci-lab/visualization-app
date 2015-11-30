@@ -3,7 +3,7 @@
   var bin;
 
   bin = (function() {
-    var hex, rect, tri;
+    var boundry, dot, hex, rect, stem, tri, voronoi;
 
     function bin() {}
 
@@ -15,13 +15,13 @@
 
     quantile(function() {});
 
-    boundry(function() {});
+    boundry = function() {};
 
-    voronoi(function() {});
+    voronoi = function() {};
 
-    dot(function() {});
+    dot = function() {};
 
-    stem(function() {});
+    stem = function() {};
 
     return bin;
 

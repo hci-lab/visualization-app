@@ -7,10 +7,10 @@ class bin
 
   quantile () ->
 
-  boundry () ->
+  boundry = () ->
 
-  voronoi () ->
+  voronoi = () ->
 
-  dot () ->
+  dot = () ->
 
-  stem () ->
+  stem = () ->
