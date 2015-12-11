@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualization App</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/photon.css">
+
+    <!-- Electron Javascript -->
+    <script src="main.js" charset="utf-8"></script>
+    <script>var $ = require('jquery')</script>
+    <script src="render.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+<!-- Wrap your entire app inside .window -->
+<div class="window">
+    <!-- .toolbar-header sits at the top of your app -->
+    <header class="toolbar toolbar-header">
+        <h1 class="title">Photon</h1>
+
+        <div class="toolbar-actions">
+            <div class="btn-group">
+                <button class="btn btn-large btn-default">
+                    <span class="icon icon-home"></span>
+                </button>
+                <button class="btn btn-large btn-default">
+                    <span class="icon icon-folder"></span>
+                </button>
+                <button class="btn btn-large btn-default active">
+                    <span class="icon icon-cloud"></span>
+                </button>
+                <button class="btn btn-large btn-default">
+                    <span class="icon icon-popup"></span>
+                </button>
+                <button class="btn btn-large btn-default">
+                    <span class="icon icon-shuffle"></span>
+                </button>
+            </div>
+            <button class="btn btn-large btn-default" id="newWindow">
+                <span class="icon icon-home icon-text"></span>
+                New ToolBox
+            </button>
+
+            <button class="btn btn-default btn-large icon icon-down-open-mini pull-right">
+                <span class="icon icon-megaphone pull-left"></span>
+            </button>
+        </div>
+    </header>
+    <div class="tab-group">
+        <div class="tab-item">
+            <span class="icon icon-cancel icon-close-tab"></span>
+            Tab
+        </div>
+        <div class="tab-item active">
+            <span class="icon icon-cancel icon-close-tab"></span>
+            Tab active
+        </div>
+        <div class="tab-item">
+            <span class="icon icon-cancel icon-close-tab"></span>
+            Tab
+        </div>
+        <div class="tab-item tab-item-fixed">
+            <span class="icon icon-plus"></span>
+        </div>
+    </div>
+
+
+    <!-- Your app's content goes inside .window-content -->
+    <div class="window-content">
+        <div class="padded-more">
+            <h1>Welcome to Photon</h1>
+
+            <p>
+                Thanks for downloading Photon. This is an example HTML page that's linked up to compiled Photon CSS, has
+                the proper meta tags
+                and the HTML structure.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

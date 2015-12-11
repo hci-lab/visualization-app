@@ -1,0 +1,45 @@
+{
+  "name": "visualization-app",
+  "version": "0.0.1",
+  "description": "Data Visualization Application based on GoG",
+  "main": "dist/main.js",
+  "homepage": "https://github.com/hci-lab/visualization-app",
+  "author": {
+    "name": "HCI Lab",
+    "email": "info@http://hci.fci.helwan.edu.eg",
+    "url": "http://hci.fci.helwan.edu.eg"
+  },
+  "bugs": {
+    "url": "https://github.com/hci-lab/visualization-app/issues"
+  },
+  "scripts": {
+    "preinstall": "coffee --bare --no-header --output dist --compile src",
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "*",
+    "grunt-contrib-coffee": "~0.7",
+    "grunt-contrib-watch": "*",
+    "grunt-mocha-test": "*",
+    "coffee-script": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "scaffolt": "*",
+    "grunt": "~0.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hci-lab/visualization-app.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hci-lab/visualization-app/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
