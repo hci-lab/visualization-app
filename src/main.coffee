@@ -4,7 +4,8 @@ browser_window = electron.BrowserWindow
 ipc_main       = require('electron').ipcMain
 electron.crashReporter.start()
 
-main_window = null
+main_window    = null
+tool_box       = null
 
 app.on 'window-all-closed', ()->
   if process.platform isnt 'darwin'
@@ -27,5 +28,11 @@ ipc_main.on 'asyn-msg', (event,arg)->
 
 
 ipc_main.on 'open_window', (event,arg)->
-  tool_box       = null
   tool_box       = new browser_window {width: 200, height: 500, frame: false}
+
+
+ipc_main.on 'close_window', (event,arg)->
+  tool_box.close()
+  tool_box.on 'closed', ()->
+    tool_box       = null
+

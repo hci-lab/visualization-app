@@ -4,13 +4,17 @@ MenuItem   = remote.MenuItem
 ipc_render = require('electron').ipcRenderer
 
 menu       = new Menu()
-menu.append(new MenuItem({ label: 'MenuItem1', click: ()->
-  console.log('item 1 clicked')
+menu.append(new MenuItem({ label: 'Split', click: ()->
+  console.log('Split clicked')
 } ))
 menu.append(new MenuItem({ type: 'separator' }))
-menu.append(new MenuItem({ label: 'MenuItem2', type: 'checkbox', checked: true }))
+menu.append(new MenuItem({ label: 'Close', click: ()->
+  console.log('Close clicked')
+} ))
 
-window.addEventListener 'contextmenu', (e)->
+
+
+document.addEventListener 'contextmenu', (e)->
   e.preventDefault();
   menu.popup(remote.getCurrentWindow())
 , false
@@ -23,7 +27,12 @@ ipc_render.on 'asyn-reply', (event,arg)->
 
 $ ->
   $('#newWindow').click ->
-    ipc_render.send 'open_window' , 'newWindow'
+    if $('#newWindow').hasClass("active")
+      $('#newWindow').removeClass("active");
+      ipc_render.send 'close_window' , 'newWindow'
+    else
+      $('#newWindow').addClass("active");
+      ipc_render.send 'open_window' , 'newWindow'
   return
 
 

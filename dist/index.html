@@ -18,8 +18,6 @@
 <div class="window">
     <!-- .toolbar-header sits at the top of your app -->
     <header class="toolbar toolbar-header">
-        <h1 class="title">Photon</h1>
-
         <div class="toolbar-actions">
             <div class="btn-group">
                 <button class="btn btn-large btn-default">
@@ -38,17 +36,19 @@
                     <span class="icon icon-shuffle"></span>
                 </button>
             </div>
+            <div class="btn-group">
             <button class="btn btn-large btn-default" id="newWindow">
-                <span class="icon icon-home icon-text"></span>
+                <span class="icon icon-home"></span>
                 New ToolBox
             </button>
+                </div>
 
             <button class="btn btn-default btn-large icon icon-down-open-mini pull-right">
                 <span class="icon icon-megaphone pull-left"></span>
             </button>
         </div>
     </header>
-    <div class="tab-group">
+    <div class="tab-group" id="tab_group">
         <div class="tab-item">
             <span class="icon icon-cancel icon-close-tab"></span>
             Tab
