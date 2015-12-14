@@ -1,24 +1,13 @@
-remote     = require('electron').remote
-Menu       = remote.Menu
-MenuItem   = remote.MenuItem
 ipc_render = require('electron').ipcRenderer
 
-menu       = new Menu()
-menu.append(new MenuItem({ label: 'Split', click: ()->
-  console.log('Split clicked')
-} ))
-menu.append(new MenuItem({ type: 'separator' }))
-menu.append(new MenuItem({ label: 'Close', click: ()->
-  console.log('Close clicked')
-} ))
 
 
-
-document.addEventListener 'contextmenu', (e)->
-  e.preventDefault();
-  menu.popup(remote.getCurrentWindow())
-, false
-
+split_editor = (calling_div)->
+  hidden_pane_elements = $("body").find( ":hidden" ).not("script")
+  console.log hidden_pane_elements
+  $(hidden_pane_elements[0]).show()
+  visible_pane_elements = $( "div:visible" )
+  console.log visible_pane_elements
 
 ipc_render.send 'asyn-msg' , 'ping'
 ipc_render.on 'asyn-reply', (event,arg)->
@@ -26,6 +15,9 @@ ipc_render.on 'asyn-reply', (event,arg)->
 
 
 $ ->
+  $('#pane_2').hide()
+  $('#pane_3').hide()
+  $('#pane_4').hide()
   $('#newWindow').click ->
     if $('#newWindow').hasClass("active")
       $('#newWindow').removeClass("active");

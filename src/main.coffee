@@ -2,7 +2,7 @@ electron       = require 'electron'
 app            = electron.app
 browser_window = electron.BrowserWindow
 ipc_main       = require('electron').ipcMain
-electron.crashReporter.start()
+#electron.crashReporter.start()
 
 main_window    = null
 tool_box       = null
@@ -29,6 +29,7 @@ ipc_main.on 'asyn-msg', (event,arg)->
 
 ipc_main.on 'open_window', (event,arg)->
   tool_box       = new browser_window {width: 200, height: 500, frame: false}
+  tool_box.loadURL 'file:///' + __dirname + '/too_box.html'
 
 
 ipc_main.on 'close_window', (event,arg)->
