@@ -44,9 +44,6 @@
                 </button>
             </div>
 
-            <button class="btn btn-default btn-large icon icon-down-open-mini pull-right">
-                <span class="icon icon-megaphone pull-left"></span>
-            </button>
         </div>
     </header>
 
@@ -92,12 +89,11 @@
                 </nav>
             </div>
             <div class="pane">
-            <div id="pane_1" style="display: block">
+            <div id="pane_1" class="split content">
                 <div class="title" style="border-bottom: solid; height: 30px; border-color: #f5f5f4;">
-                    <span style="font-size: 15px; margin-top: 4px"> Workspace #1</span>
-                    <a class="pull-right fa fa-close" style="margin-right: 10px; margin-top: 7px" title="Close" onclick="$('#pane_1').empty().hide()"></a>
-                    <a class="pull-right fa fa-columns" style="margin-right: 10px; margin-top: 7px"
-                       title="Split Editor" onclick="split_editor('pane_1');"></a>
+                    <span style="font-size: 15px; margin-top: 4px"> Workspace </span>
+                    <a class="pull-right icon icon-arrows-ccw" style="margin-right: 10px; margin-top: 7px" title="Clear"></a>
+
 
                 </div>
 
@@ -106,50 +102,9 @@
                 </div>
 
             </div>
-                <div id="pane_2" style="display: block">
-                    <div class="title" style="border-bottom: solid; height: 30px; border-color: #f5f5f4;">
-                        <span style="font-size: 15px; margin-top: 4px"> Workspace #2</span>
-                        <a class="pull-right fa fa-close" style="margin-right: 10px; margin-top: 7px" title="Close" onclick="$('#pane_2').empty().hide()"></a>
-                        <a class="pull-right fa fa-columns" style="margin-right: 10px; margin-top: 7px"
-                           title="Split Editor" onclick="split_editor('pane_2');"></a>
 
-                    </div>
 
-                    <div>
-                        <canvas id="canvas_2"></canvas>
-                    </div>
-
-                </div>
-                <div id="pane_3" style="display: block">
-                    <div class="title" style="border-bottom: solid; height: 30px; border-color: #f5f5f4;">
-                        <span style="font-size: 15px; margin-top: 4px"> Workspace #3</span>
-                        <a class="pull-right fa fa-close" style="margin-right: 10px; margin-top: 7px" title="Close" onclick="$('#pane_3').empty().hide()"></a>
-                        <a class="pull-right fa fa-columns" style="margin-right: 10px; margin-top: 7px"
-                           title="Split Editor" onclick="split_editor('pane_3');"></a>
-
-                    </div>
-
-                    <div>
-                        <canvas id="canvas_3"></canvas>
-                    </div>
-
-                </div>
-                <div id="pane_4" style="display: block">
-                    <div class="title" style="border-bottom: solid; height: 30px; border-color: #f5f5f4;">
-                        <span style="font-size: 15px; margin-top: 4px"> Workspace #4</span>
-                        <a class="pull-right fa fa-close" style="margin-right: 10px; margin-top: 7px" title="Close" onclick="$('#pane_4').empty().hide()"></a>
-                        <a class="pull-right fa fa-columns" style="margin-right: 10px; margin-top: 7px"
-                           title="Split Editor" onclick="split_editor('pane_4');"></a>
-
-                    </div>
-
-                    <div>
-                        <canvas id="canvas_4"></canvas>
-                    </div>
-
-                </div>
             </div>
-        </div>
     </div>
 </div>
 </body>
